@@ -1,6 +1,6 @@
 {
     "name": "kamal/clean-structure",
-    "description": "This a clean structure using controller-service-repository architucture",
+    "description": "This a clean skeleton using controller-service-repository architucture",
     "authors": [
         {
             "name": "kamal",
