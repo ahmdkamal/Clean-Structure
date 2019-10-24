@@ -1,6 +1,6 @@
 <?php
 
-namespace Pam\CleanStructure;
+namespace Kamal\CleanStructure;
 
 use Illuminate\Support\ServiceProvider;
 

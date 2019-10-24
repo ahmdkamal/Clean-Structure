@@ -1,8 +1,8 @@
 <?php
 
-namespace Pam\CleanStructure\Services\Classes;
+namespace Kamal\CleanStructure\Services\Classes;
 
-use Pam\CleanStructure\Services\Interfaces\LaravelServiceInterface;
+use Kamal\CleanStructure\Services\Interfaces\LaravelServiceInterface;
 
 class LaravelServiceClass implements LaravelServiceInterface
 {
