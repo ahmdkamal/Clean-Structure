@@ -1,8 +1,8 @@
 <?php
 
-namespace Pam\CleanStructure\Repositories\Classes;
+namespace Kamal\CleanStructure\Repositories\Classes;
 
-use Pam\CleanStructure\Interfaces\LaravelRepositoryInterface;
+use Kamal\CleanStructure\Interfaces\LaravelRepositoryInterface;
 
 class LaravelRepositoryClass implements LaravelRepositoryInterface
 {

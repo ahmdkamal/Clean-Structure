@@ -1,6 +1,6 @@
 <?php
 
-namespace Pam\CleanStructure\Interfaces;
+namespace Kamal\CleanStructure\Interfaces;
 
 Interface LaravelRepositoryInterface
 {

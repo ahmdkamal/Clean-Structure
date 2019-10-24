@@ -1,5 +1,5 @@
 {
-    "name": "pam/clean-structure",
+    "name": "kamal/clean-structure",
     "description": "This a clean structure using controller-service-repository architucture",
     "authors": [
         {
@@ -17,16 +17,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Pam\\CleanStructure\\": "src/"
+            "Kamal\\CleanStructure\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Pam\\CleanStructure\\CleanStructureServiceProvider"
+                "Kamal\\CleanStructure\\CleanStructureServiceProvider"
             ],
             "aliases": {
-                "Pam\\CleanStructure\\": "CleanStructure"
+                "Kamal\\CleanStructure\\": "CleanStructure"
             }
         }
     }

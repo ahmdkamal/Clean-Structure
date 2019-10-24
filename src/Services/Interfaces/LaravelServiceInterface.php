@@ -1,6 +1,6 @@
 <?php
 
-namespace Pam\CleanStructure\Services\Interfaces;
+namespace Kamal\CleanStructure\Services\Interfaces;
 
 Interface LaravelServiceInterface {
 
