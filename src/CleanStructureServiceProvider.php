@@ -13,6 +13,11 @@ class CleanStructureServiceProvider extends ServiceProvider
      */
     public function register()
     {
+        if (!is_dir(base_path('app/Services/'))) {
+            mkdir(base_path('app/Services/'));
+            mkdir(base_path('app/Services/Classes'));
+            mkdir(base_path('app/Services/Interfaces'));
+        }
         $this->publishes([
             __DIR__.'/Models' => base_path('app/Models/'),
             __DIR__.'/Requests' => base_path('app/Http/Requests/'),
