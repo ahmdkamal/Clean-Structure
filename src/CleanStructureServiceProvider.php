@@ -26,7 +26,6 @@ class CleanStructureServiceProvider extends ServiceProvider
             __DIR__.'/clean-code.php' => config_path('clean-code.php'),
         ]);
 
-        $this->app['router']->middleware('localization', Localization::class);
     }
 
     /**
