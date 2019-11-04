@@ -23,7 +23,7 @@ class CleanStructureServiceProvider extends ServiceProvider
             __DIR__.'/Models' => base_path('app/Models/'),
             __DIR__.'/Requests' => base_path('app/Http/Requests/'),
             __DIR__.'/Resources' => base_path('app/Http/Resources/'),
-            __DIR__.'/clean-code.php' => config_bath('clean-code.php'),
+            __DIR__.'/clean-code.php' => config_path('clean-code.php'),
         ]);
 
         $this->app['router']->middleware('localization', Localization::class);

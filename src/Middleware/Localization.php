@@ -16,7 +16,7 @@ class Localization
      */
     public function handle($request, Closure $next)
     {
-        $locales = file_exists(config_bath('clean-code.php'))
+        $locales = file_exists(config_path('clean-code.php'))
             ? config('clean-code.locales')
             : json_decode(file_get_contents(base_path( __DIR__.'clean-code.php')), true);
 
