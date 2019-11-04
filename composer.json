@@ -27,7 +27,7 @@
                 "Kamal\\CleanStructure\\CleanStructureServiceProvider"
             ],
             "aliases": {
-                "Kamal\\CleanStructure\\": "CleanStructure"
+                "CleanStructure": "Kamal\\CleanStructure\\"
             }
         }
     }
