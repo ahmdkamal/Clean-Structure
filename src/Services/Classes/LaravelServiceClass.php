@@ -1,6 +1,6 @@
 <?php
 
-namespace Kamal\CleanStructure\Services\Classes;
+namespace CleanStructure\Services;
 
 use Kamal\CleanStructure\Services\Interfaces\LaravelServiceInterface;
 
