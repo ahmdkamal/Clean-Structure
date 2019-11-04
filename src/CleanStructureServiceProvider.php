@@ -19,6 +19,11 @@ class CleanStructureServiceProvider extends ServiceProvider
             mkdir(base_path('app/Services/Classes'));
             mkdir(base_path('app/Services/Interfaces'));
         }
+        if (!is_dir(base_path('app/Repositories/'))) {
+            mkdir(base_path('app/Repositories/'));
+            mkdir(base_path('app/Repositories/Classes'));
+            mkdir(base_path('app/Repositories/Interfaces'));
+        }
         $this->publishes([
             __DIR__.'/Models' => base_path('app/Models/'),
             __DIR__.'/Requests' => base_path('app/Http/Requests/'),
