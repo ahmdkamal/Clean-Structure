@@ -6,7 +6,7 @@ use Kamal\CleanStructure\Interfaces\LaravelRepositoryInterface;
 
 class LaravelRepositoryClass implements LaravelRepositoryInterface
 {
-    private $model;
+    protected  $model;
 
     public function all($conditions = [])
     {

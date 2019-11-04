@@ -6,7 +6,7 @@ use Kamal\CleanStructure\Services\Interfaces\LaravelServiceInterface;
 
 class LaravelServiceClass implements LaravelServiceInterface
 {
-    private $repository;
+    protected $repository;
 
     public function index()
     {
