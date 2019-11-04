@@ -12,5 +12,6 @@ return [
     ##
     ## Setting Languages
     ##
-    'locales' => ['en', 'ar']
+    'locales' => ['en', 'ar'],
+    'default_lang' => 'en'
 ];

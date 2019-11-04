@@ -21,7 +21,7 @@ class Localization
             : json_decode(file_get_contents(base_path( __DIR__.'clean-code.php')), true);
 
         $lang = $request->header('Accept-Language') && in_array($request->header('Accept-Language'), $locales)
-            ? $request->header('Accept-Language') : $locales;
+            ? $request->header('Accept-Language') : config('clean-code.default_lang');
 
         app()->setlocale($lang);
 
