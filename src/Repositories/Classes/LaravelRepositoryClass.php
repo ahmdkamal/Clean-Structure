@@ -1,6 +1,6 @@
 <?php
 
-namespace CleanStructure\Repositories;
+namespace Kamal\CleanStructure\Repositories\Classes;
 
 use Kamal\CleanStructure\Interfaces\LaravelRepositoryInterface;
 
