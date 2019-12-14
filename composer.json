@@ -24,8 +24,7 @@
         "laravel": {
             "providers": [
                 "Kamal\\CleanStructure\\CleanStructureServiceProvider"
-            ],
-
+            ]
         }
     }
 }
